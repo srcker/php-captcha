@@ -9,5 +9,9 @@
         }
     ],
     "require": {},
-    "autoload": {}
+    "autoload": {
+        "psr-4": {
+            "srcker\\": "src/"
+        }
+    }
 }
