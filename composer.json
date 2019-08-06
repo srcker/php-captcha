@@ -1,0 +1,13 @@
+{
+    "name": "srcker/captcha",
+    "description": "captcha package for php, use api.",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Sinda",
+            "email": "sinda@srcker.com"
+        }
+    ],
+    "require": {},
+    "autoload": {}
+}
