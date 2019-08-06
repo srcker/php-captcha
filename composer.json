@@ -1,6 +1,6 @@
 {
     "name": "srcker/captcha",
-    "description": "captcha package for php, use api.",
+    "description": "验证码类库，可用于API构成app、小程序、api等",
     "license": "Apache-2.0",
     "authors": [
         {
