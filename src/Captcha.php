@@ -155,7 +155,6 @@ class Captcha
 
         $code = strtoupper(implode('', $code));
 
-
         ob_start();
         // 输出图像
         imagepng($this->im);
@@ -164,7 +163,7 @@ class Captcha
         
         return [
             'code'   => $code,
-            'base64' => 'data:image/png;base64,'.base64_encode($base)
+            'base64' => 'data:image/png;base64,'.base64_encode($content)
         ];
     }
 
